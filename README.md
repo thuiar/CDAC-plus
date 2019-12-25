@@ -4,7 +4,7 @@ Implementation of the research paper [Discovering New Intents via Constrained De
 
 Identifying new user intents is an essential task in the dialogue system. However, it is hard to get satisfying clustering results since the definition of intents is strongly guided by prior knowledge. Existing methods incorporate prior knowledge by intensive feature engineering, which not only leads to overfitting but also makes it sensitive to the number of clusters. 
 
-In this paper, we propose `constrained deep adaptive clustering with cluster refinement (CDAC+)`, an end-toend clustering method that can naturally incorporate `pairwise constraints` as prior knowledge to guide the clustering process. Moreover, we refine the clusters by forcing the model to learn from the high confidence assignments. After eliminating low confidence assignments, our approach is surprisingly insensitive to the number of clusters. 
+In this paper, we propose `constrained deep adaptive clustering with cluster refinement (CDAC+)`, an end-to-end clustering method that can naturally incorporate `pairwise constraints` as prior knowledge to guide the clustering process. Moreover, we refine the clusters by forcing the model to learn from the high confidence assignments. After eliminating low confidence assignments, our approach is surprisingly insensitive to the number of clusters. 
 
 The model architecture of CDAC+:
 ![Architecture](img/architecture.png)
