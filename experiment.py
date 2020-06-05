@@ -28,7 +28,7 @@ unknown_cls_ratio = float(sys.argv[4])
 
 data_dir = 'data/' + task_name
 output_dir = '/tmp/' + datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
-bert_model = "/data/disk1/sharing/pretrained_embedding/bert/uncased_L-12_H-768_A-12"
+bert_model = "bert-base-uncased"
 num_train_epochs = 46
 
 max_seq_task = {
